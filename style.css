@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+font-size: 32px;
+margin: 0;
+}
+
+nav {
+display: inline-block;
+float: right;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-left: 20px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+}
+
+nav a:hover {
+color: #ccc;
+}
+
+main {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+section {
+margin-top: 30px;
+}
+
+section h2 {
+font-size: 24px;
+margin: 0;
+}
+
+section ul {
+margin: 10px 0;
+}
+
+section li {
+margin-bottom: 10px;
+}
+
+section h3 {
+font-size: 18px;
+margin: 0;
+}
+
+section p {
+margin: 0;
+}
+
+section img {
+display: block;
+float: right;
+margin-left: 20px;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+
+form {
+margin-top: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #444;
+}
+
+.fa {
+display: inline-block;
+font-size: 20px;
+margin-right: 5px;
+}
+
+.fa-user:before {
+content: "\f007";
+}
+
+.fa-briefcase:before {
+content: "\f0b1";
+}
+
+.fa-graduation-cap:before {
+content: "\f19d";
+}
+
+.fa-code:before {
+content: "\f121";
+}
+
+.fa-envelope:before {
+content: "\f0e0";
+}
