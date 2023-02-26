@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   mail($to, $subject, $body, $headers);
 
   // Redirect the user back to the form page
-  header("Location: form.html");
+  header("Location: index.html");
   exit();
 }
 ?>
