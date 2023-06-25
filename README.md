@@ -1,1 +1,2 @@
-# alexmalik.github.io
+# alexmalikmolk.github.io
+# alexmalik.me
