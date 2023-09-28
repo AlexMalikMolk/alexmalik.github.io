@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://use.fontawesome.com/44c41cffa1.js"></script>
+    <meta charset="UTF-8">
+    <title>Alex Malik CV</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Alex Malik Curriculum Vitae</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" id="languageSwitch">Svenska</a></li>
+			</ul>
+		</nav>
+	</header>
+
+  <main>
+    <section id="about">
+        <img src="my-photo.jpg" alt="My Photo">
+        <div>
+            <h2><i class="fa fa-user"></i> About Me</h2>
+            <p>Hi! I am a support expert with over 10 years of experience in customer service, technical support, and onsite. In my spare time, I love immersing myself in games, playing the guitar, and listening to music. My ultimate goal is to transition into the software development industry and become a successful developer.</p>
+        </div>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Customer Service Representative and QA</h3>
+                <p>Teleperformance</p>
+                <p>October 2021 - October 2022</p>
+                <ul>
+                    <li>Handling incoming calls regarding Uber Eats Restaurants.</li>
+                    <li>Account management, guidance, and menu updates.</li>
+                    <li>QA of agents to ensure they meet call requirements. This also includes coaching.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h3>Support Technician/Onsite Technician</h3>
+                <p>Wise IT</p>
+                <p>February 2019 - June 2019</p>
+                <ul>
+                    <li>Onsite technical support for a major magazine.</li>
+                    <li>Registration and administration of new users in AD.</li>
+                    <li>Overall responsibility to ensure that the hardware and software of the employees' computers worked properly.</li>
+                    <li>Basic server management and software deployment via Kaseya.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h3>Support Technician</h3>
+                <p>Telecomputing</p>
+                <p>July 2016 - May 2018</p>
+                <ul>
+                    <li>Telephone support and later onsite support.</li>
+                    <li>Administration of accounts in AD and in MobileIron.</li>
+                    <li>Overall responsibility for the employees' computers and associated software.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h3>Support Technician</h3>
+                <p>Various companies</p>
+                <p>October 2006 - January 2016</p>
+                <ul>
+                    <li>Support for businesses in various industries.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>Software Developer</h3>
+                <p>Mölk Education</p>
+                <p>September 2022 - Ongoing</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h3>Mobile Systems and GIT</h3>
+                <p>Ocellus</p>
+                <p>September 2019 - June 2021</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h3>Eligibility for Higher Studies</h3>
+                <p>Eskilstuna Folk High School</p>
+                <p>August 2004 - June 2008</p>
+            </li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Customer Service</li>
+            <li>IT Onsite</li>
+            <li>Microsoft Office</li>
+            <li>Active Directory</li>
+            <li>Kaseya/Software Center</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/moqzdgrj" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2023 - Alex Malik</p>
+</footer>
+<script>
+    const languageSwitch = document.getElementById('languageSwitch');
+    
+    if (window.location.href.includes('eng.html')) {
+        languageSwitch.textContent = "Swedish";
+        languageSwitch.href = "index.html";
+    }
+</script>    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
 
