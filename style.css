@@ -139,3 +139,11 @@ content: "\f121";
 .fa-envelope:before {
 content: "\f0e0";
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
