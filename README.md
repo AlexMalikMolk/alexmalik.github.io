@@ -1,4 +1,3 @@
-# alexmalik.me
 # alexmalikmolk.github.io
 
 Detta repository innehåller koden för mitt CV på github pages.
